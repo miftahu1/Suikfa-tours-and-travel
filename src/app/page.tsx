@@ -8,12 +8,10 @@ import {
   Clock, 
   MapPin, 
   CheckCircle2, 
-  Smartphone, 
   Trophy, 
   Settings, 
   PhoneCall, 
   Mail, 
-  Map, 
   Instagram, 
   Facebook, 
   ChevronRight,
@@ -53,11 +51,10 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src={images.hero.url}
-            alt="Hero Background"
+            alt={images.hero.alt}
             fill
             priority
             className="object-cover opacity-60"
-            data-ai-hint="luxury car rental"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
@@ -65,7 +62,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10 pt-20">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6 animate-fade-in">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold mb-6">
               <Star className="w-4 h-4 fill-primary" />
               #1 Rental Service in Assam
             </div>
@@ -133,7 +130,6 @@ export default function Home() {
                   alt="Adventure in Assam"
                   fill
                   className="object-cover"
-                  data-ai-hint="scenic mountain road"
                 />
               </div>
               <div className="absolute -bottom-8 -right-8 glass-dark p-8 rounded-2xl border border-white/10 hidden md:block">

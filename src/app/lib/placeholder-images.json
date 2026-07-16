@@ -1,9 +1,9 @@
 {
   "hero": {
-    "url": "https://res.cloudinary.com/uonym8yc/image/upload/re_homepage/h63ybrqpysqutrib3env",
+    "url": "/assets/images/herobanner.png",
     "width": 1920,
     "height": 1080,
-    "alt": "Premium vehicles in scenic Northeast India"
+    "alt": "Siukfa Tours Hero Banner"
   },
   "cars": [
     {

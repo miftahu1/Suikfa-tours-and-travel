@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    --background: 222 47% 5%;
+    --background: 222 47% 8%;
     --foreground: 210 40% 98%;
-    --card: 222 47% 7%;
+    --card: 222 47% 6%;
     --card-foreground: 210 40% 98%;
     --popover: 222 47% 5%;
     --popover-foreground: 210 40% 98%;
@@ -47,7 +47,6 @@
   @apply bg-opacity-40 backdrop-filter backdrop-blur-xl bg-gray-900 border border-white border-opacity-5;
 }
 
-/* Custom Hide Scrollbar */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
