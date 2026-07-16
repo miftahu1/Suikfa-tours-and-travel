@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 7%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 45 93% 58%;
+    --primary-foreground: 222 47% 5%;
+    --secondary: 222 39% 11%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 39% 11%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 45 93% 58%;
+    --accent-foreground: 222 47% 5%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 45 93% 58%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(222, 47%, 15%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(45, 93%, 10%, 0.1) 0, transparent 50%);
+  }
+}
+
+.glass {
+  @apply bg-opacity-20 backdrop-filter backdrop-blur-lg bg-white border border-white border-opacity-10;
+}
+
+.glass-dark {
+  @apply bg-opacity-40 backdrop-filter backdrop-blur-xl bg-gray-900 border border-white border-opacity-5;
+}
+
+/* Custom Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

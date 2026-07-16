@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "url": "https://res.cloudinary.com/uonym8yc/image/upload/re_homepage/h63ybrqpysqutrib3env",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Premium vehicles in scenic Northeast India"
+  },
+  "cars": [
+    {
+      "id": "creta",
+      "name": "Hyundai Creta",
+      "url": "https://picsum.photos/seed/creta/600/400",
+      "price": 2500,
+      "category": "SUV",
+      "capacity": 5,
+      "fuel": "Diesel/Petrol",
+      "transmission": "Manual/Auto"
+    },
+    {
+      "id": "innova",
+      "name": "Toyota Innova Crysta",
+      "url": "https://picsum.photos/seed/innova/600/400",
+      "price": 3700,
+      "category": "Premium SUV",
+      "capacity": 7,
+      "fuel": "Diesel",
+      "transmission": "Manual"
+    },
+    {
+      "id": "i20",
+      "name": "Hyundai i20",
+      "url": "https://picsum.photos/seed/i20/600/400",
+      "price": 2500,
+      "category": "Hatchback",
+      "capacity": 5,
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    },
+    {
+      "id": "swift",
+      "name": "Maruti Swift",
+      "url": "https://picsum.photos/seed/swift/600/400",
+      "price": 2500,
+      "category": "Hatchback",
+      "capacity": 5,
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    },
+    {
+      "id": "dzire",
+      "name": "Maruti Dzire",
+      "url": "https://picsum.photos/seed/dzire/600/400",
+      "price": 2500,
+      "category": "Sedan",
+      "capacity": 5,
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    }
+  ],
+  "bikes": [
+    {
+      "id": "himalayan450",
+      "name": "Royal Enfield Himalayan 450",
+      "url": "https://picsum.photos/seed/h450/600/400",
+      "price": 1300,
+      "category": "Adventure",
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    },
+    {
+      "id": "himalayan411",
+      "name": "Royal Enfield Himalayan 411",
+      "url": "https://picsum.photos/seed/h411/600/400",
+      "price": 1300,
+      "category": "Adventure",
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    },
+    {
+      "id": "xpulse",
+      "name": "Hero XPulse",
+      "url": "https://picsum.photos/seed/xpulse/600/400",
+      "price": 1300,
+      "category": "Adventure",
+      "fuel": "Petrol",
+      "transmission": "Manual"
+    }
+  ]
+}
