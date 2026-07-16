@@ -126,7 +126,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
                 <Image
-                  src="https://picsum.photos/seed/travel/800/800"
+                  src="/assets/images/vehicles/cars/hyundaicreta.png"
                   alt="Adventure in Assam"
                   fill
                   className="object-cover"

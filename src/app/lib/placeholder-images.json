@@ -9,7 +9,7 @@
     {
       "id": "creta",
       "name": "Hyundai Creta",
-      "url": "https://picsum.photos/seed/creta/600/400",
+      "url": "/assets/images/vehicles/cars/hyundaicreta.png",
       "price": 2500,
       "category": "SUV",
       "capacity": 5,
@@ -19,7 +19,7 @@
     {
       "id": "innova",
       "name": "Toyota Innova Crysta",
-      "url": "https://picsum.photos/seed/innova/600/400",
+      "url": "/assets/images/vehicles/cars/toyotainnovacrysta.png",
       "price": 3700,
       "category": "Premium SUV",
       "capacity": 7,
@@ -29,7 +29,7 @@
     {
       "id": "i20",
       "name": "Hyundai i20",
-      "url": "https://picsum.photos/seed/i20/600/400",
+      "url": "/assets/images/vehicles/cars/hyundaini20.png",
       "price": 2500,
       "category": "Hatchback",
       "capacity": 5,
@@ -39,7 +39,7 @@
     {
       "id": "swift",
       "name": "Maruti Swift",
-      "url": "https://picsum.photos/seed/swift/600/400",
+      "url": "/assets/images/vehicles/cars/marutiswift.png",
       "price": 2500,
       "category": "Hatchback",
       "capacity": 5,
@@ -49,7 +49,7 @@
     {
       "id": "dzire",
       "name": "Maruti Dzire",
-      "url": "https://picsum.photos/seed/dzire/600/400",
+      "url": "/assets/images/vehicles/cars/marutidzire.png",
       "price": 2500,
       "category": "Sedan",
       "capacity": 5,
@@ -61,7 +61,7 @@
     {
       "id": "himalayan450",
       "name": "Royal Enfield Himalayan 450",
-      "url": "https://picsum.photos/seed/h450/600/400",
+      "url": "/assets/images/vehicles/bikes/himalayan450.png",
       "price": 1300,
       "category": "Adventure",
       "fuel": "Petrol",
@@ -70,7 +70,7 @@
     {
       "id": "himalayan411",
       "name": "Royal Enfield Himalayan 411",
-      "url": "https://picsum.photos/seed/h411/600/400",
+      "url": "/assets/images/vehicles/bikes/himalayan411.png",
       "price": 1300,
       "category": "Adventure",
       "fuel": "Petrol",
@@ -79,7 +79,7 @@
     {
       "id": "xpulse",
       "name": "Hero XPulse",
-      "url": "https://picsum.photos/seed/xpulse/600/400",
+      "url": "/assets/images/vehicles/bikes/xpulse.png",
       "price": 1300,
       "category": "Adventure",
       "fuel": "Petrol",
